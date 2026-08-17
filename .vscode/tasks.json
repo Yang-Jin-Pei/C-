@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "编译并运行当前文件",
+      "type": "shell",
+      "command": "g++ -std=c++17 -Wall -Wextra -o /tmp/a.out \"${file}\" && /tmp/a.out",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"],
+      "presentation": { "reveal": "always", "panel": "shared", "clear": true }
+    }
+  ]
+}
