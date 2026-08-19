@@ -1,0 +1,4 @@
+# 编译产物（可执行文件）不进 git
+/algo/*
+!/algo/*.cpp
+!/algo/*.hpp
